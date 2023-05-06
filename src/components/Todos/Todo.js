@@ -19,9 +19,7 @@ const Todo = ({ todo, deleteTodo, toggleTodo }) => {
         onClick={() => toggleTodo(todo.id)}
         className={styles.checkIcon}
       />
-      {/* <form onDoubleClick={() => deleteInput(id)}>
-        <input defaultValue={text} readOnly />
-      </form> */}
+     
     </div>
   )
 }
